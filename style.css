@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    height: 600px;
+    padding: 30px;
+    background-image: url('https://acegif.com/wp-content/gif/outerspace-66.gif');
+    background-repeat: no-repeat;
+    background-size: 1520px 800px;
+    cursor: progress;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    border: 1px ridge rgba(217, 241, 2, 0.931);
+    border-radius: 25px;
+    backdrop-filter: blur(8px);
+    font-size: 16px;
+    color: rgb(25, 0, 255);
+    cursor: text;
+    transition: all 1s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card:hover {
+    transition: all 1s;
+    backdrop-filter: contrast(85%);
+    box-shadow: 15px 10px 35px rgb(74, 233, 0);
+    color: cyan;
+    border: 1px ridge red ;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 10, 24);
+    font-weight: 600;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    margin: 9px auto;
+    border: none;
+}
+
+.number {
+    position: absolute;
+    left: 130px;
+    top: -30px;
+    width: 200px;
+    height: 200px;
+    font-size: 180px;
+    color: rgba(10, 124, 218, 0.424);
+    font-family: 'Montserrat', sans-serif;
+    transition: all 1s;
+
+}
+.number:hover{
+    cursor: help;
+    color: rgba(221, 160, 221, 0.527);
+    transition: 1s;
+}
+
+.name {
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    position: absolute;
+    top: 170px;
+    left: 1%;
+    height: 200px;
+    margin: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    position: absolute;
+    top: 75%;
+    left: 24%;
+    width: 190px;
+    height: 45px;
+    box-shadow: -20px 20px 35px rgb(10, 10, 10);
+    /* border: 1px solid rgb(58, 52, 52); */
+    border: none;
+    border-radius: 66px;
+    background-color: rgb(226, 224, 224);
+    cursor: pointer;
+    transition: all 1s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+    background-color: rgba(60, 138, 216, 0.829);
+    transition: all 1s;
+    font-style: italic;
+    color: pink;
+    font-family: 'Montserrat', sans-serif;
+}
